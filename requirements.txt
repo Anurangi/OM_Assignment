@@ -1,0 +1,5 @@
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+pulp==2.9.0        # 2.9 bundles the CBC solver; PuLP 3.x/4.x changed the API
+jupyter
