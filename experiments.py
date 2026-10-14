@@ -125,6 +125,7 @@ def e3():
         pd.DataFrame(rows).to_csv(f"{RESULTS}/e3_tradeoff.csv", index=False)
 
 
+
 if __name__ == "__main__":
     todo = sys.argv[1:] or ["E1", "E2", "E3"]
     for name in todo:
